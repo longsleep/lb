@@ -1,8 +1,6 @@
 lb - LDAP benchmarking tool like an Apache Bench
 ================================================
 
-[![Build Status](https://travis-ci.org/hamano/lb.svg?branch=master)](https://travis-ci.org/hamano/lb)
-
 lb is simple benchmarking tool for LDAP Server.
 This tool is designed to allow perform by command line such as Apache Bench.
 
@@ -10,24 +8,11 @@ This tool is designed to allow perform by command line such as Apache Bench.
 
 ### Build requirements
 
-* Golang 1.4 or later
-
-for Debian or Ubuntu
-
-~~~
-# apt-get install golang
-~~~
-
-Set GOPATH
-
-~~~
-$ export GOPATH=~/go
-$ export PATH=$GOPATH/bin:$PATH
-~~~
+* Golang 1.16 or later
 
 ### Install lb command
 ~~~
-$ go get github.com/hamano/lb
+$ go get github.com/longsleep/lb/cmd/lb
 ~~~
 
 ## Usage
