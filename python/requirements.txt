@@ -1,3 +1,0 @@
-python-ldap
-click
-python-libuuid
