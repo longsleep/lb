@@ -2,9 +2,9 @@ package main
 
 import (
 	"fmt"
+	"github.com/go-ldap/ldap/v3"
 	"github.com/satori/go.uuid"
-	"github.com/urfave/cli"
-	"gopkg.in/ldap.v3"
+	"github.com/urfave/cli/v2"
 	"log"
 	"reflect"
 )
